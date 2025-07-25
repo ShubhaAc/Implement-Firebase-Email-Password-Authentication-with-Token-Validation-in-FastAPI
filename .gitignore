@@ -1,0 +1,37 @@
+# Virtual environment
+fastapi_env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Firebase service account key (sensitive!)
+serviceAccountKey.json
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Pyrebase or Firebase generated tokens/configs if any
+firebase_token.json
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
